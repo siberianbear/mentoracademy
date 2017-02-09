@@ -13,7 +13,7 @@
 
   <body>
 <header class="layout--header">
-  <div class="wrapper container-fluid">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-sm-5">
         <div class="box">
@@ -22,7 +22,7 @@
       </div>
       <div class="col-sm-7 col-xs-12">
         <div class="box">
-          <nav class="nav-horizontal text-right">
+          <nav class="nav-horizontal">
             <a class="nav-horizontal__link" href="#">sessions</a>
             <a class="nav-horizontal__link" href="#">questions</a>
             <a class="nav-horizontal__link" href="#">posts</a>
@@ -32,90 +32,93 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-9 col-sm-10 col-xs-12">
+        <p id="slogan">Lorem ipsum dolor sit amet consectetur adipiscing elit. Learn and share!</p>
+      </div>
+    </div>
   </div>
 </header>
 
-  <div class="header_bottom container-fluid">
+<div class="container-fluid header_bottom">
+  <div class="internal">
     <!-- <div class=""> -->
       <div class="row">
-        <div class="col-lg-4 col-lg-offset-1 col-md-5 col-sm-5 col-xs-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-1 header_info_box">
-          <img src="../images/svg/icon1.svg" />
-          <h2>Tech <span>Topic</span></h2>
-          <p>communities:</p>
-          <ul>
-            <li>React</li>
-            <li>Meteor</li>
-            <li>Angular</li>
-            <li>and 99 more</li>
-          </ul>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1 header_info_box left">
+            <img src="../images/svg/icon1.svg" />
+            <h2>Tech <span>Topic</span></h2>
+            <p>communities:</p>
+            <ul>
+              <li>React</li>
+              <li>Meteor</li>
+              <li>Angular</li>
+              <li>and 99 more</li>
+            </ul>
         </div>
-        <div class="col-lg-4 col-md-5 col-sm-5 col-xs-12 header_info_box">
-          <img src="../images/svg/icon2.svg" />
-          <h2>Startup <span>Topic</span></h2>
-          <p>communities:</p>
-          <ul>
-            <li>React</li>
-            <li>Meteor</li>
-            <li>Angular</li>
-            <li>and 99 more</li>
-          </ul>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 header_info_box right">
+              <img src="../images/svg/icon2.svg" />
+              <h2>Startup <span>Topic</span></h2>
+              <p>communities:</p>
+              <ul>
+                <li>React</li>
+                <li>Meteor</li>
+                <li>Angular</li>
+                <li>and 99 more</li>
+              </ul>
         </div>
       </div>
     </div>
-  <!-- </div> -->
+  </div>
 
 <main class="container-fluid">
 
+  <div class="container-fluid">
   <!-- <div class="row middle-sm sessions-nav"> -->
-  <div class="row sessions-nav">
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4 col-sm-offset-1 col-md-offset-1 col-xs-offset-0 col-lg-offset-2 left">
-      <span>upcoming sessions</span>
-    </div>
-    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-3 col-sm-offset-3 col-md-offset-4 col-xs-offset-5 col-lg-offset-2 right text-right">
-      <span>more sessions</span>
-    </div>
-  </div>
-
-  <!-- <div class="row middle-sm"> -->
-  <div class="row">
-    <!-- left block -->
-    <div class="s-block col-lg-4 col-md-5 col-sm-5 col-xs-12 col-lg-offset-2 col-md-offset-1 col-sm-offset-1">
-      <div class="s-block-l2">
-        <img src="../images/svg/icon3.svg" alt="" class="icon" />
-        <div class="balloon">
-          <p>Tue, 11 Dec <br /><span>7pm - 9pm</span></p>
-        </div>
-        <div class="info">
-          <h4>Stateless components for beginners</h4>
-          <ul>
-            <li>react</li>
-            <li>meteor</li>
-            <li>angular</li>
-          </ul>
-        </div>
-        <div class="author">
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="avatar" />
-          <p class="author">Serkan Durusoy</p>
-        </div>
+    <div class="row sessions-nav">
+      <div class="col-lg-5 col-md-6 col-sm-3 col-xs-3 left">
+        <span>upcoming sessions</span>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-3 col-sm-offset-5 col-xs-2 col-xs-offset-7 col-lg-offset-1 text-right right">
+        <span>more sessions</span>
       </div>
     </div>
 
-    <!-- right block -->
-    <!--  col-lg-6 col-md-6 col-sm-6 col-xs-12 -->
-    <div class="s-block-right col-lg-4 col-md-5 col-sm-5 col-xs-12 col-lg-offset-1 col-md-offset-2">
-      <div class="s-block-r2">
-        <img src="../images/svg/icon4.svg" alt="" class="icon" />
-        <div class="balloon">
-          <p>More Sessions<br /><span>Soon</span></p>
+    <div class="row">
+      <div class="col-md-5 col-sm-5 s-block-left">
+        <div class="col-md-12">
+          <img src="../images/svg/icon3.svg" alt="" class="icon" />
+          <div class="balloon">
+            <p>Tue, 11 Dec <br /><span>7pm - 9pm</span></p>
+          </div>
+          <div class="info">
+            <h4>Stateless components for beginners</h4>
+            <ul>
+              <li>react</li>
+              <li>meteor</li>
+              <li>angular</li>
+            </ul>
+            <div class="author">
+              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="avatar" />
+              <p class="author">Serkan Durusoy</p>
+            </div>
+          </div>
         </div>
-        <div class="info">
-          <p>We are constantly working on providing excellent quality sessions lorem ipsum dolor sit amet consectetur</p>
-        </div>
+      </div>
+
+        <div class="col-md-5 col-sm-5 s-block-right">
+          <div class="col-md-12">
+          <img src="../images/svg/icon4.svg" alt="" class="icon" />
+          <div class="balloon">
+            <p>More Sessions<br /><span>Soon</span></p>
+          </div>
+          <div class="info">
+            <p>We are constantly working on providing excellent quality sessions lorem ipsum dolor sit amet consectetur</p>
+          </div>
+      </div>
+      </div>
+
     </div>
   </div>
-
-</div>
-
 
   <div class="container-fluid layout--content">
       <div class="box">
@@ -257,9 +260,8 @@
 
       </div>
 
-
-
   </div>
+
 </main>
 
 <!-- <div class="designs designs--index"></div> -->
