@@ -4,23 +4,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>MentorAcademy prototype v4</title>
-    <meta name="description" content="MentorAcademy's HTML prototype v4">
+    <title>MentorAcademy prototype v5</title>
+    <meta name="description" content="MentorAcademy's HTML prototype v5">
 
     <link rel="stylesheet" href="../css/style.css">
 
   </head>
 
+  <!-- <body style="width: 1700px"> -->
   <body>
-<header class="layout--header container-fluid">
-  <div class="container-fluid">
+<header class="wrapper layout--header container-fluid">
+  <div class="wrapper container-fluid header_internal_block nullpadding">
     <div class="row">
-      <div class="col-xs-12 col-sm-5">
+      <div class="col-xs-12 col-sm-5 nullpadding">
         <div class="box">
           <a href="/" class="logo" title="Home"></a>
         </div>
       </div>
-      <div class="col-sm-7 col-xs-12">
+      <div class="col-sm-7 col-xs-12 nullpadding">
         <div class="box">
           <nav class="nav-horizontal">
             <a class="nav-horizontal__link" href="#">sessions</a>
@@ -33,178 +34,195 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12">
-        <p id="slogan">Lorem ipsum dolor sit amet consectetur adipiscing elit. Learn and share!</p>
+      <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12 nullpadding">
+        <div class="box">
+          <p id="slogan">Lorem ipsum dolor sit amet consectetur adipiscing elit. Learn and share!</p>
+        </div>
       </div>
     </div>
   </div>
 </header>
 
-<div class="container-fluid header_bottom">
-  <div class="internal">
-    <!-- <div class=""> -->
-      <div class="row">
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 header_info_box left">
-            <img src="../images/svg/icon1.svg" />
-            <h2>Tech <span>Topic</span></h2>
-            <p>communities:</p>
-            <ul>
-              <li class="tra">React</li>
-              <li class="tra">Meteor</li>
-              <li class="tra">Angular</li>
-              <li class="tra">and 99 more</li>
-            </ul>
-        </div>
-        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 header_info_box right">
-              <img src="../images/svg/icon2.svg" />
-              <h2>Startup <span>Topic</span></h2>
-              <p>communities:</p>
-              <ul>
-                <li class="tra">React</li>
-                <li class="tra">Meteor</li>
-                <li class="tra">Angular</li>
-                <li class="tra">and 99 more</li>
-              </ul>
-        </div>
+<div class="wrapper container-fluid header_bottom">
+
+      <div class="wrapper container header_internal_block nullpadding">
+
+          <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 header_info_box left">
+                  <div class="box">
+                    <img src="../images/svg/icon1.svg" />
+                    <h2>Tech <span>Topic</span></h2>
+                    <p>communities:</p>
+                    <ul>
+                      <li class="tra">React</li>
+                      <li class="tra">Meteor</li>
+                      <li class="tra">Angular</li>
+                      <li class="tra">and 99 more</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 header_info_box right">
+                  <div class="box">
+                    <img src="../images/svg/icon2.svg" />
+                    <h2>Startup <span>Topic</span></h2>
+                    <p>communities:</p>
+                    <ul>
+                      <li class="tra">React</li>
+                      <li class="tra">Meteor</li>
+                      <li class="tra">Angular</li>
+                      <li class="tra">and 99 more</li>
+                    </ul>
+                  </div>
+                </div>
+
+          </div>
+
       </div>
-    </div>
+
   </div>
 
-<main class="container-fluid">
+<main class="wrapper container-fluid">
 
-  <div class="container-fluid">
+  <div class="wrapper container-fluid top_block_content_outer_wrapper">
   <!-- <div class="row middle-sm sessions-nav"> -->
     <div class="row sessions-nav">
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 left">
-        <span>upcoming sessions</span>
+        <div class="box">
+          <span>upcoming sessions</span>
+        </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-sm-offset-5 col-xs-6 text-right right">
-        <span>more sessions</span>
+        <div class="box">
+          <span>more sessions</span>
+        </div>
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-5 col-sm-5 s-block-left">
-        <div class="col-md-12">
-          <img src="../images/svg/icon3.svg" alt="" class="icon" />
-          <div class="balloon">
-            <p>Tue, 11 Dec <br /><span>7pm - 9pm</span></p>
-          </div>
-          <div class="info">
-            <h4>Stateless components for beginners</h4>
-            <ul>
-              <li>react</li>
-              <li>meteor</li>
-              <li>angular</li>
-            </ul>
-            <div class="author">
-              <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="avatar" />
-              <p class="author">Serkan Durusoy</p>
+      <div class="col-md-6 col-sm-5 s-block-left">
+        <div class="box">
+            <img src="../images/svg/icon3.svg" alt="" class="icon" />
+            <div class="balloon">
+              <p>Tue, 11 Dec <br /><span>7pm - 9pm</span></p>
             </div>
-          </div>
-        </div>
+            <div class="info">
+              <h4>Stateless components for beginners</h4>
+              <ul>
+                <li>react</li>
+                <li>meteor</li>
+                <li>angular</li>
+              </ul>
+              <div class="author">
+                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="avatar" />
+                <p class="author">Serkan Durusoy</p>
+              </div>
+            </div>
+        </div><!-- end of div.box -->
       </div>
 
-        <div class="col-md-5 col-md-offset-1 col-sm-5 s-block-right">
-          <div class="col-md-12">
-          <img src="../images/svg/icon4.svg" alt="" class="icon" />
-          <div class="balloon">
-            <p>More Sessions<br /><span>Soon</span></p>
+        <div class="col-md-6 col-sm-5 s-block-right">
+          <div class="box">
+            <img src="../images/svg/icon4.svg" alt="" class="icon" />
+            <div class="balloon">
+              <p>More Sessions<br /><span>Soon</span></p>
+            </div>
+            <div class="info">
+              <p>We are constantly working on providing excellent quality sessions lorem ipsum dolor sit amet consectetur</p>
+            </div>
           </div>
-          <div class="info">
-            <p>We are constantly working on providing excellent quality sessions lorem ipsum dolor sit amet consectetur</p>
-          </div>
-      </div>
       </div>
 
     </div>
   </div>
 
-  <div class="container-fluid layout--content">
-      <div class="box">
-          <div class="row">
+  <div class="wrapper container-fluid layout--content">
+          <div class="row internal_container_qp">
             <!-- QUESTIONS block -->
             <div class="qp-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
-              <div class="qp-l-block">
-                <div class="header">
-                  <p class="left">questions</p>
-                  <p class="right">more questions</p>
+              <div class="box">
+                <div class="qp-l-block">
+                  <div class="header">
+                    <p class="left">questions</p>
+                    <p class="right">more questions</p>
+                  </div>
+
+                  <ul class="questions--list">
+                    <li class="q--item">
+                      <div class="icon">
+                        <img src="../images/svg/icon5.svg" alt="" />
+                      </div>
+                      <div class="content">
+                        <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
+                        <p class="q-answers">2 Answers <span>ES6</span></p>
+                      </div>
+                      <div class="vote">
+                          <img src="../images/svg/vote_up.svg" alt="">
+                          <p>20</p>
+                      </div>
+                    </li>
+                    <li class="q--item">
+                      <div class="icon">
+                        <img src="../images/svg/icon5.svg" alt="" />
+                      </div>
+                      <div class="content">
+                        <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
+                        <p class="q-answers">2 Answers <span>ES6</span></p>
+                      </div>
+                      <div class="vote">
+                          <img src="../images/svg/vote_up.svg" alt="">
+                          <p>22</p>
+                      </div>
+                    </li>
+                    <li class="q--item">
+                      <div class="icon">
+                        <img src="../images/svg/icon5.svg" alt="" />
+                      </div>
+                      <div class="content">
+                        <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
+                        <p class="q-answers">2 Answers <span>ES6</span></p>
+                      </div>
+                      <div class="vote">
+                          <img src="../images/svg/vote_up.svg" alt="">
+                          <p>20</p>
+                      </div>
+                    </li>
+                    <li class="q--item">
+                      <div class="icon">
+                        <img src="../images/svg/icon5.svg" alt="" />
+                      </div>
+                      <div class="content">
+                        <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
+                        <p class="q-answers">2 Answers <span>ES6</span></p>
+                      </div>
+                      <div class="vote">
+                          <img src="../images/svg/vote_up.svg" alt="">
+                          <p>20</p>
+                      </div>
+                    </li>
+                    <li class="q--item">
+                      <div class="icon">
+                        <img src="../images/svg/icon5.svg" alt="" />
+                      </div>
+                      <div class="content">
+                        <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
+                        <p class="q-answers">2 Answers <span>ES6</span></p>
+                      </div>
+                      <div class="vote">
+                          <img src="../images/svg/vote_up.svg" alt="">
+                          <p>20</p>
+                      </div>
+                    </li>
+
+                  </ul>
                 </div>
-
-                <ul class="questions--list">
-                  <li class="q--item">
-                    <div class="icon">
-                      <img src="../images/svg/icon5.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
-                      <p class="q-answers">2 Answers <span>ES6</span></p>
-                    </div>
-                    <div class="vote">
-                        <img src="../images/svg/vote_up.svg" alt="">
-                        <p>20</p>
-                    </div>
-                  </li>
-                  <li class="q--item">
-                    <div class="icon">
-                      <img src="../images/svg/icon5.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
-                      <p class="q-answers">2 Answers <span>ES6</span></p>
-                    </div>
-                    <div class="vote">
-                        <img src="../images/svg/vote_up.svg" alt="">
-                        <p>22</p>
-                    </div>
-                  </li>
-                  <li class="q--item">
-                    <div class="icon">
-                      <img src="../images/svg/icon5.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
-                      <p class="q-answers">2 Answers <span>ES6</span></p>
-                    </div>
-                    <div class="vote">
-                        <img src="../images/svg/vote_up.svg" alt="">
-                        <p>20</p>
-                    </div>
-                  </li>
-                  <li class="q--item">
-                    <div class="icon">
-                      <img src="../images/svg/icon5.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
-                      <p class="q-answers">2 Answers <span>ES6</span></p>
-                    </div>
-                    <div class="vote">
-                        <img src="../images/svg/vote_up.svg" alt="">
-                        <p>20</p>
-                    </div>
-                  </li>
-                  <li class="q--item">
-                    <div class="icon">
-                      <img src="../images/svg/icon5.svg" alt="" />
-                    </div>
-                    <div class="content">
-                      <p class="q-title">Is ES6 needlessly Obfuscating Code?</p>
-                      <p class="q-answers">2 Answers <span>ES6</span></p>
-                    </div>
-                    <div class="vote">
-                        <img src="../images/svg/vote_up.svg" alt="">
-                        <p>20</p>
-                    </div>
-                  </li>
-
-                </ul>
-
-              </div>
+              </div> <!-- div.box end -->
             </div>
 
             <!-- POSTS block -->
             <div class="qp-block col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <div class="box">
               <div class="qp-r-block">
                 <div class="header">
                   <p class="left">posts</p>
@@ -308,81 +326,94 @@
 
             </div>
             <!--  end of POSTS block -->
+            </div> <!-- end of div.box of POSTS  -->
           </div>
           </div>
 
-      </div>
+    </div>
 
-  </div>
+  <!-- </div> -->
 
 </main>
 
-<!-- <div class="designs designs--index"></div> -->
+<div class="designs designs--index"></div>
 
-<div class="container-fluid">
+<div class="wrapper container-fluid social_icons_block">
   <div class="row">
       <div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-7 col-sm-5 col-xs-12">
-        <nav class="social-links">
-          <a href="https://www.facebook.com/" class="social-links__link" target="_blank">
-            <i class="icon icon--social-facebook"></i>
-          </a>
-          <a href="https://plus.google.com/" class="social-links__link" target="_blank">
-            <i class="icon icon--social-gplus"></i>
-          </a>
-          <a href="https://twitter.com/" class="social-links__link" target="_blank">
-            <i class="icon icon--social-twitter"></i>
-          </a>
-          <a href="https://vimeo.com/" class="social-links__link" target="_blank">
-            <i class="icon icon--heart"></i>
-          </a>
-        </nav>
+        <div class="box">
+          <nav class="social-links">
+            <a href="https://www.facebook.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-facebook"></i>
+            </a>
+            <a href="https://plus.google.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-gplus"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-twitter"></i>
+            </a>
+            <a href="https://vimeo.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--heart"></i>
+            </a>
+          </nav>
+        </div>
   </div>
 </div>
 </div>
 
-<footer class="layout--footer">
-  <div class="container-fluid footer_internal">
+<footer class="wrapper layout--footer">
+  <div class="wrapper container-fluid footer_internal">
     <div class="row">
       <!-- <nav class="nav-vertical col-xs-6 col-sm-2 col-md-2 col-lg-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0"> -->
       <nav class="nav-vertical first col-xs-6 col-sm-2 col-md-2 col-lg-1">
-        <a class="nav-vertical__link" href="#">Lorem ipsum</a>
-        <a class="nav-vertical__link" href="#">Dolor sit</a>
-        <a class="nav-vertical__link" href="#">Amet</a>
-        <a class="nav-vertical__link" href="#">Consectetur</a>
-        <a class="nav-vertical__link" href="#">Elit</a>
+        <div class="box">
+          <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+          <a class="nav-vertical__link" href="#">Dolor sit</a>
+          <a class="nav-vertical__link" href="#">Amet</a>
+          <a class="nav-vertical__link" href="#">Consectetur</a>
+          <a class="nav-vertical__link" href="#">Elit</a>
+        </div>
       </nav>
       <nav class="nav-vertical second col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-1">
-        <a class="nav-vertical__link" href="#">Lorem ipsum</a>
-        <a class="nav-vertical__link" href="#">Dolor sit</a>
-        <a class="nav-vertical__link" href="#">Amet</a>
-        <a class="nav-vertical__link" href="#">Consectetur</a>
-        <a class="nav-vertical__link" href="#">Elit</a>
+        <div class="box">
+          <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+          <a class="nav-vertical__link" href="#">Dolor sit</a>
+          <a class="nav-vertical__link" href="#">Amet</a>
+          <a class="nav-vertical__link" href="#">Consectetur</a>
+          <a class="nav-vertical__link" href="#">Elit</a>
+        </div>
       </nav>
       <div class="footer_tag_box tech col-xs-6 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1">
-        <h4>tech</h4>
-        <ul>
-          <li class="trr">React</li>
-          <li class="trr">Meteor</li>
-          <li class="trr">Angular</li>
-          <li class="trr">Meteor</li>
-          <li class="trr">Angular</li>
-          <li class="trr">React</li>
-        </ul>
+        <div class="box">
+          <h4>tech</h4>
+          <ul>
+            <li class="trr">React</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">React</li>
+          </ul>
+        </div>
       </div>
       <div class="footer_tag_box startup col-xs-6 col-sm-2 col-md-2 col-lg-2">
-        <h4>startups</h4>
-        <ul>
-          <li class="trr">React</li>
-          <li class="trr">Meteor</li>
-          <li class="trr">Angular</li>
-          <li class="trr">Meteor</li>
-          <li class="trr">React</li>
-        </ul>
+        <div class="box">
+          <h4>startups</h4>
+          <ul>
+            <li class="trr">React</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">React</li>
+          </ul>
+        </div>
       </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 footer_paragraph">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-lg-offset-1 footer_paragraph">
       <div id="row">
-          <div id="footer_right_par" class="col-lg-offset-2 col-lg-10">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ullamco laboris nisi ut aliquip.</p>
+          <div id="footer_right_par" class="col-lg-12">
+            <div class="box">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse dolore eu.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -390,10 +421,12 @@
   </div>
 </footer>
 
-<div class="container-fluid text-center">
+<div class="wrapper container-fluid text-center">
   <div class="row">
     <div class="col-sm-12 col-xm-12 col-md-12 col-lg-12">
-      <p id="copyright"><img id="footer_logo" src="../images/svg/ma_logo_icon.svg" alt=""><span>Copyright 2017 Mentor Academy</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor magna aliqua.</p>
+      <div class="box">
+        <p id="copyright"><img id="footer_logo" src="../images/svg/ma_logo_icon.svg" alt=""><span>Copyright 2017 Mentor Academy</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor magna aliqua.</p>
+      </div>
     </div>
   </div>
 </div>
