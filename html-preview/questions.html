@@ -1,0 +1,316 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MentorAcademy prototype v6</title>
+    <meta name="description" content="MentorAcademy's HTML prototype v6">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+  </head>
+
+  <!-- <body style="width: 1700px"> -->
+  <body>
+<div class="wrapper posts_page_header container-fluid">
+  <div class="wrapper layout--header_internal container-fluid nullpadding">
+    <div class="row">
+      <div class="col-xs-12 col-sm-3 col-md-2 col-lg-1 nullpadding">
+        <div class="box">
+          <a href="/" class="logo_internal" title="Home"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-1 nullpadding">
+        <div class="box">
+          <div class="posts_page_header_dropdown">
+            <input class="posts_page_header_dropdown__input" id="posts_page_header_dropdown-toggle" type="checkbox" name="posts_page_header_dropdown" />
+            <label class="posts_page_header_dropdown__label" for="posts_page_header_dropdown-toggle" id="posts_page_header_dropdown_label">
+              <div id="posts_page_header_dropdown_all-topics">
+              <div id="posts_page_header_alltopic_icon">
+                <img src="../images/svg/all_topics_sign.svg" />
+              </div>
+                All topics
+                <div id="posts_page_header_dropdown_arrow"><i class="icon"><img src="../images/svg/dropdown_arrow.svg" /></i></div>
+              </div>
+            </label>
+            <div class="posts_page_header_dropdown__inner">
+              <nav class="posts_page_header_dropdown__nav">
+                <a href="#" class="posts_page_header_dropdown__link">React</a>
+                <a href="#" class="posts_page_header_dropdown__link">Vue</a>
+                <a href="#" class="posts_page_header_dropdown__link">Meteor</a>
+                <a href="#" class="posts_page_header_dropdown__link">Angular</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-lg-offset-2 nullpadding">
+        <div class="box">
+          <nav class="nav-horizontal_internal">
+            <a class="nav-horizontal_internal__link" href="#">sessions</a>
+            <a class="nav-horizontal_internal__link" href="#">questions</a>
+            <a class="nav-horizontal_internal__link" href="#">posts</a>
+          </nav>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-3 col-md-2 col-lg-2 nullpadding">
+        <div class="box">
+          <div class="posts_page_header_userprofile">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg" alt="" class="avatar" />
+            <p class="author">Serkan Durusoy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="wrapper layout--header_internal_bottom_questions container-fluid">
+
+    <div class="row nomargin questions_page_internal_bottom_space_frm_top">
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nullpadding">
+        <div class="box">
+          <div class="questions_page_header_bottom_dropdown">
+            <input class="questions_page_header_bottom_dropdown__input" id="questions_page_header_bottom_dropdown-toggle" type="checkbox" name="dropdown" />
+            <label class="questions_page_header_bottom_dropdown__label" for="questions_page_header_bottom_dropdown-toggle" id="questions_page_dropdown_label">
+              React <div id="questions_page_dropdown_arrow"><i class="icon"><img src="../images/svg/dropdown_arrow.svg" /></i></div>
+            </label>
+            <div class="questions_page_header_bottom_dropdown__inner">
+              <nav class="questions_page_header_bottom_dropdown__nav">
+                <a href="#" class="questions_page_header_bottom_dropdown__link">Meteor</a>
+                <a href="#" class="questions_page_header_bottom_dropdown__link">Vue</a>
+                <a href="#" class="questions_page_header_bottom_dropdown__link">RebelJS</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 nullpadding">
+        <div class="box">
+          <div class="header_internal_ask_new_question align2right">
+            <button class="txt--caps" id="questions_ask_new_question_bttn">ask a new question</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+<main class="wrapper container-fluid layout--content_questions_page">
+
+  <div class="row">
+
+    <div class="col-xs-12">
+
+      <div class="box">
+        <div class="qsp-box layout--content_questions_page_internal_wrapper">
+              <!-- <div class="qp-r-block"> -->
+                <div class="header qsp-box_internal_wrapper">
+                  <p class="left">questions</p>
+                </div>
+
+                <ul class="qsp-questions--list qsp-box_internal_wrapper">
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+
+                  </li>
+                  <!-- <div class="qsp-q--item-divider">&nbsp;</div> -->
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+                  </li>
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+                  </li>
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+                  </li>
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+                  </li>
+                  <li class="qsp-q--item">
+                    <div class="icon">
+                      <img src="../images/svg/icon3.svg" alt="" />
+                    </div>
+                    <div class="content">
+                      <p class="qsp-q-title">Is ES6 needlessly Obfuscating Code? Lorem ipsum dolor sit amet, consectetur.</p>
+                      <p class="qsp-q-answers">2 Answers <span>ES6</span></p>
+                    </div>
+                    <div class="vote">
+                        <img src="../images/svg/vote_up.svg" alt="">
+                        <p>20</p>
+                    </div>
+                  </li>
+                </ul>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+</main>
+
+<div class="designs designs--index"></div>
+
+<div class="wrapper container-fluid questions_page_social_icons">
+<div class="wrapper container-fluid social_icons_block_full">
+
+  <!-- <div class="wrapper container-fluid social_icons_block_internal"> -->
+
+  <div class="row nopadding">
+    <!-- <div class="col-lg-offset-9 col-lg-3 col-md-offset-9 col-md-3 col-sm-offset-7 col-sm-5 col-xs-12 nopadding"> -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding">
+      <div class="box">
+
+        <div class="social_icons_block_internal">
+
+          <nav class="social-links">
+            <a href="https://www.facebook.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-facebook"></i>
+            </a>
+            <a href="https://plus.google.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-gplus"></i>
+            </a>
+            <a href="https://twitter.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--social-twitter"></i>
+            </a>
+            <a href="https://vimeo.com/" class="social-links__link" target="_blank">
+              <i class="icon icon--heart"></i>
+            </a>
+          </nav>
+
+        </div>
+
+        </div>
+    </div>
+  </div>
+
+<!-- </div> -->
+
+</div>
+</div>
+<footer class="wrapper layout--footer">
+  <div class="wrapper container-fluid footer_internal">
+    <div class="row">
+      <!-- <nav class="nav-vertical col-xs-6 col-sm-2 col-md-2 col-lg-1 col-sm-offset-1 col-md-offset-0 col-lg-offset-0"> -->
+      <nav class="nav-vertical first col-xs-6 col-sm-2 col-md-2 col-lg-1">
+        <div class="box">
+          <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+          <a class="nav-vertical__link" href="#">Dolor sit</a>
+          <a class="nav-vertical__link" href="#">Amet</a>
+          <a class="nav-vertical__link" href="#">Consectetur</a>
+          <a class="nav-vertical__link" href="#">Elit</a>
+        </div>
+      </nav>
+      <nav class="nav-vertical second col-xs-6 col-sm-2 col-md-2 col-lg-1 col-lg-offset-1">
+        <div class="box">
+          <a class="nav-vertical__link" href="#">Lorem ipsum</a>
+          <a class="nav-vertical__link" href="#">Dolor sit</a>
+          <a class="nav-vertical__link" href="#">Amet</a>
+          <a class="nav-vertical__link" href="#">Consectetur</a>
+          <a class="nav-vertical__link" href="#">Elit</a>
+        </div>
+      </nav>
+      <div class="footer_tag_box tech col-xs-6 col-sm-2 col-md-2 col-lg-2 col-lg-offset-1">
+        <div class="box">
+          <h4>tech</h4>
+          <ul>
+            <li class="trr">React</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">React</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_tag_box startup col-xs-6 col-sm-2 col-md-2 col-lg-2">
+        <div class="box">
+          <h4>startups</h4>
+          <ul>
+            <li class="trr">React</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">Angular</li>
+            <li class="trr">Meteor</li>
+            <li class="trr">React</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 col-lg-offset-1 footer_paragraph">
+      <div id="row">
+          <div id="footer_right_par" class="col-lg-12">
+            <div class="box">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse dolore eu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="wrapper container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-12 col-xm-12 col-md-12 col-lg-12">
+      <div class="box">
+        <p id="copyright"><img id="footer_logo" src="../images/svg/ma_logo_icon.svg" alt=""><span>Copyright 2017 Mentor Academy</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor magna aliqua.</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    <script src="../js/design-toggler.js"></script>
+  </body>
+</html>
